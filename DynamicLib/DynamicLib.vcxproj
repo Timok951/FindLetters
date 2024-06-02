@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f1065802-e3cd-4f78-bbee-2cce39ce80bc}</ProjectGuid>
+    <ProjectGuid>{bda45724-3d40-4714-ac15-8bbd61a7ad57}</ProjectGuid>
     <RootNamespace>DynamicLib</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DynamicLib.cpp" />
+    <ClCompile Include="Find.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />

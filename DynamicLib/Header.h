@@ -1,2 +1,4 @@
+#include <string> 
+
 #pragma once
-__declspec(dllexport) int Sum(int a, int b);
+extern "C" _declspec(dllexport) int Find(std::string, std::string);
